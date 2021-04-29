@@ -2,8 +2,8 @@
 include 'config.php';
 $email = $_REQUEST['name'];
 $password = $_REQUEST['password'];
-$sql = "SELECT password FROM doctordetails where email='$email'";
-$activated = "SELECT activate FROM doctordetails where email='$email'";
+$sql = "SELECT password FROM DoctorDetails where email='$email'";
+$activated = "SELECT activate FROM DoctorDetails where email='$email'";
 
 
 
