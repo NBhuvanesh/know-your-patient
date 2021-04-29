@@ -19,11 +19,11 @@ $district = $_REQUEST['district'];
 $email = $_REQUEST['email'];
 $password = $_REQUEST['password'];
 
-$emailsql = "SELECT email FROM doctordetails WHERE email='$email'";
+$emailsql = "SELECT email FROM DoctorDetails WHERE email='$email'";
 $eresult = mysqli_query($conn, $emailsql);
 $a = mysqli_num_rows($eresult);
 
-$sql1 = "SELECT imr FROM doctordetails WHERE imr='$imr'";
+$sql1 = "SELECT imr FROM DoctorDetails WHERE imr='$imr'";
 $result = mysqli_query($conn, $sql1);
 if ($a > 0) {
   echo "This Email is already Taken";
