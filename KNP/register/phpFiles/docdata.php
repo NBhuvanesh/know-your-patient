@@ -3,7 +3,7 @@ include 'config.php';
 
 
 
-$webdomain = 'http://knowyourpatient.great-site.net';
+$webdomain = 'https://knowyourpatient.herokuapp.com';
 
 
 
